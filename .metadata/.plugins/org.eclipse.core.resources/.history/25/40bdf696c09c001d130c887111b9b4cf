@@ -1,0 +1,20 @@
+package com.salesken.Service;
+
+import org.springframework.stereotype.Service;
+
+import com.salesken.Exception.StudentException;
+import com.salesken.Model.Student;
+
+
+@Service
+public class StudentDaoImplement implements StudentDao {
+	
+	
+
+	@Override
+	public Student addStudentWithMarks(Student student) throws StudentException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+ 
+}

@@ -1,0 +1,25 @@
+package com.salesken.Model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import jakarta.persistence.CascadeType;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.OneToMany;
+import lombok.Data;
+
+@Data
+public class Student {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Integer studentId;
+	
+	private String name;
+	
+	@OneToMany(cascade = CascadeType.ALL)
+	private List<Semesters> semesters=new ArrayList<>(2);
+
+}

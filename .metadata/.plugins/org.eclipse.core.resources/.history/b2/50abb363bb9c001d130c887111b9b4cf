@@ -1,0 +1,8 @@
+package com.salesken.Model;
+
+public class Semesters {
+	
+	private Integer semester;
+	
+
+}

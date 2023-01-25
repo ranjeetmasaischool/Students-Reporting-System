@@ -1,0 +1,5 @@
+package com.salesken.Model;
+
+public class Student {
+
+}

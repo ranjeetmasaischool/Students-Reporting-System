@@ -1,0 +1,5 @@
+package com.salesken.Exception;
+
+public class GlobalExceptionHandler {
+
+}

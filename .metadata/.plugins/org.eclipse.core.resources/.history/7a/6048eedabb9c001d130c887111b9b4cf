@@ -1,0 +1,16 @@
+package com.salesken.Model;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import lombok.Data;
+
+@Data
+public class Student {
+	
+	private String name;
+	
+	
+	private List<Semesters> semesters=new ArrayList<>(2);
+
+}

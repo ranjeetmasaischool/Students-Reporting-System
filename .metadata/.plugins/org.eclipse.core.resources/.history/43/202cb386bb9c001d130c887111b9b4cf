@@ -1,0 +1,11 @@
+package com.salesken.Model;
+
+import lombok.Data;
+
+@Data
+public class Semesters {
+	
+	private Integer semester;
+	
+
+}

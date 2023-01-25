@@ -1,0 +1,5 @@
+package com.salesken.Service;
+
+public class StudentDao {
+
+}
